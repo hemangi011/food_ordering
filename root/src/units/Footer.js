@@ -7,7 +7,7 @@ export default function Footer() {
     <div class="col-md-4 d-flex align-items-center">
       <Link to="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
       </Link>
-      <span class="text-muted">© 2024 Aakash Food, Inc</span>
+      <span class="text-muted">© 2024 Akasa Food, Inc</span>
     </div>
   </footer>
     </div>

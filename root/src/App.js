@@ -1,29 +1,33 @@
 // import logo from './logo.svg';
 import './App.css';
-import Home from './screens/Home';
+import Home from './Pages/HomePage.js';
 import{
   BrowserRouter as Router,
   Routes,
   Route,
   Link
 } from "react-router-dom"
-import Login from './screens/Login';
+
 import '../node_modules/bootstrap-dark-5/dist/css/bootstrap-dark.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
-import Signup from './screens/Signup.js';
-import { CartProvider } from './components/ContextReducer.js';
-import MyOrder from './screens/MyOrder.js';
+
+import { CartProvider } from './units/ContextReducer.js';
+
+import MyOrderPage from './Pages/MyOrderPage.js';
+import LoginPage from './Pages/LoginPage.js';
+import SignupPage from './Pages/SignupPage.js';
+import HomePage from './Pages/HomePage.js';
 // import '../node_modules/bootstrap/dist/js/.'
 function App() {
   return (
     <CartProvider>
     <Router>
     <div><Routes>
-      <Route exact path = "/" element = {<Home/>}/>
-      <Route exact path = "/login" element = {<Login/>}/>
-      <Route exact path = "/createuser" element = {<Signup/>}/>
-      <Route exact path="/myOrder" element={<MyOrder />} />
+\      <Route exact path = "/" element = {<HomePage/>}/>
+      <Route exact path = "/login" element = {<LoginPage/>}/>
+      <Route exact path = "/createuser" element = {<SignupPage/>}/>
+      <Route exact path="/myOrder" element={<MyOrderPage />} />
       </Routes>
       </div>
     </Router>

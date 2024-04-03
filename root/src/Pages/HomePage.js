@@ -1,10 +1,10 @@
 import React,{useEffect,useState} from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Card from '../components/Card'
-import Carousel from '../components/Carousel'
+import Navbar from '../units/NavigationBar'
+import Footer from '../units/Footer'
+import Card from '../units/Card'
+import Carousel from '../units/Carousel'
 
-export default function Home() {
+export default function HomePage() {
 
     const[search,setSearch] = useState('');
     const [foodCat,setFoodCat] = useState([]);  //array to store food categories
@@ -31,18 +31,19 @@ export default function Home() {
                 <div className="carousel-inner" id ='carousel'>
                 <div className="carousel-caption" style={{zIndex:"10"}}>
                         <div className="d-flex justify-center ">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" value ={search} onChange={(e)=>{setSearch(e.target.value)}} />
+                            <input className="form-control me-2" type="search" placeholder="Search Food Item" aria-label="Search" value ={search} onChange={(e)=>{setSearch(e.target.value)}} />
                             {/* <button className="btn btn-outline-success text-white bg-success" type="submit" >Search</button> */}
                         </div>
                     </div>
+                    
                     <div className="carousel-item active">
-                        <img src="https://source.unsplash.com/random/900x700/?burger" className="d-block w-100" alt="..." />
+                        <img src="https://source.unsplash.com/random/900x700/?sandwich" className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
                         <img src="https://source.unsplash.com/random/900x700/?fruitbowl" className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src="https://source.unsplash.com/random/900x700/?sandwich" className="d-block w-100" alt="..." />
+                        <img src="https://source.unsplash.com/random/900x700/?bread" className="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
