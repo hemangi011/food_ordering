@@ -1,0 +1,96 @@
+{
+  "categories": [
+    {
+      "category_name": "Fruits",
+      "items": [
+        {
+          "name": "Fresh Fruit Salad",
+          "img": "https://media.istockphoto.com/id/1225981808/photo/healthy-homemade-fruit-salad-bowl-shot-from-above.webp?b=1&s=170667a&w=0&k=20&c=aPn4_laQPNw6DK_hDsyzw3KGZ2FfPNs0kqgPgkUQwPc=",
+          "options": {
+            "half": 387,
+            "full": 774
+          },
+          "description": "A refreshing mix of seasonal fruits like watermelon, pineapple, grapes, and strawberries."
+        },
+        {
+          "name": "Apple Slices",
+          "img": "https://media.istockphoto.com/id/1156718087/photo/preparing-food.webp?b=1&s=170667a&w=0&k=20&c=kYDetBgJWiDp3t_0F-pnjI4OXtNLxyUzL-TREvw2RPA=",
+          "options": {
+            "half": 210,
+            "full": 420
+          },
+          "description": "Crisp and juicy apple slices, perfect for a quick snack."
+        }
+      ]
+    },
+    {
+      "category_name": "Breads",
+      "items": [
+        {
+          "name": "Croissant",
+          "img": "https://media.istockphoto.com/id/180824921/photo/fresh-chocolate-croissants-on-a-plate.webp?b=1&s=170667a&w=0&k=20&c=gVqCS5UhtaQ_elqZKD3Lk204hqW8gTG7YMCZYxtDNSI=",
+          "options": {
+            "half": 309,
+            "full": 618
+          },
+          "description": "A buttery and flaky pastry, great for breakfast or a light snack."
+        },
+        {
+          "name": "Baguette",
+          "img": "https://media.istockphoto.com/id/505913810/photo/baguette-isolated-on-white-background.webp?b=1&s=170667a&w=0&k=20&c=xQeePADhR4xikyz2aRSRYRH3UfrcPTnn4XFIXoK9Nm4=",
+          "options": {
+            "half": 146,
+            "full": 292
+          },
+          "description": "A classic French bread, perfect for making sandwiches."
+        }
+      ]
+    },
+    {
+      "category_name": "Sandwiches",
+      "items": [
+        {
+          "name": "Turkey & Swiss Sandwich",
+          "img": "https://media.istockphoto.com/id/1164141596/photo/stack-of-vegetable-and-cheese-sandwiches-toasted-sandwich-grilled-sandwich-grilled-cheese-and.webp?b=1&s=170667a&w=0&k=20&c=hbhfpZAU7rx89-qMCIaKaeZiW9fbqNeWVcptlYmi54k=",
+          "options": {
+            "half": 278,
+            "full": 556
+          },
+          "description": "Sliced turkey breast and Swiss cheese served on whole wheat bread, with lettuce and tomato."
+        },
+        {
+          "name": "Chicken Caesar Wrap",
+          "img": "https://media.istockphoto.com/id/174762177/photo/chicken-salad-wrap.webp?b=1&s=170667a&w=0&k=20&c=v87BJSaX_pPXlzw6If0zNvQYscnRK3KyvlolV1E6G5U=",
+          "options": {
+            "half": 325,
+            "full": 650
+          },
+          "description": "Grilled chicken, romaine lettuce, Parmesan cheese, and Caesar dressing wrapped in a flour tortilla."
+        }
+      ]
+    },
+    {
+      "category_name": "Salads",
+      "items": [
+        {
+          "name": "Classic Caesar Salad",
+          "img": "https://media.istockphoto.com/id/977580922/photo/caesar-salad-salad-with-chicken-meat-caesar.webp?b=1&s=170667a&w=0&k=20&c=HSgE2KOGa1EOjrAnrXNmXZy_XEhWOb6YeKj7005DJa8=",
+          "options": {
+            "half": 203,
+            "full": 406
+          },
+          "description": "Crisp romaine lettuce, croutons, and Parmesan cheese tossed in creamy Caesar dressing."
+        },
+        {
+          "name": "Greek Salad",
+          "img": "https://media.istockphoto.com/id/1461256163/photo/feta-cheese-salad-on-wooden-table.webp?b=1&s=170667a&w=0&k=20&c=gN5zApNv-3nbUQnjyG68Qbf0zQXNoLGehpV01jEbNng=",
+          "options": {
+            "half": 182,
+            "full": 364
+          },
+          "description": "Fresh lettuce, tomatoes, cucumbers, red onions, Kalamata olives, and feta cheese, tossed in Greek dressing."
+        }
+      ]
+    }
+  ]
+}
