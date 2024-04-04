@@ -27,7 +27,7 @@ export default function LoginPage() {
       localStorage.setItem("userEmail", credentials.email);
       console.log(localStorage.getItem("authToken"))
       //navigating to dashboard page after successful login
-      navigate("/");
+      navigate("/dashboard");
     }
 
   }

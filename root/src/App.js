@@ -18,16 +18,19 @@ import MyOrderPage from './Pages/MyOrderPage.js';
 import LoginPage from './Pages/LoginPage.js';
 import SignupPage from './Pages/SignupPage.js';
 import HomePage from './Pages/HomePage.js';
+import DashboardPage from './Pages/DashboardPage.js';
 // import '../node_modules/bootstrap/dist/js/.'
 function App() {
   return (
     <CartProvider>
     <Router>
     <div><Routes>
-\      <Route exact path = "/" element = {<HomePage/>}/>
+      <Route exact path = "/" element = {<HomePage/>}/>
       <Route exact path = "/login" element = {<LoginPage/>}/>
       <Route exact path = "/createuser" element = {<SignupPage/>}/>
       <Route exact path="/myOrder" element={<MyOrderPage />} />
+      <Route exact path="/dashboard" element={<DashboardPage />} />
+
       </Routes>
       </div>
     </Router>

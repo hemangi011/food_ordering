@@ -12,6 +12,6 @@ router.post('/myOrderData', async (req, res) => {
     }
     
 
-});
+})
 
 module.exports = router; 
