@@ -75,7 +75,7 @@ export default function CartIcon() {
                             ))}
                         </tbody>
                     </table>
-                    <div><h1 className='fs-2'>Total Price: {totalPrice}/-</h1></div>
+                    <div><h1 className='fs-2 text-light' >Total Price: {totalPrice}/-</h1></div>
                     <div>
                         <button className='btn bg-primary mt-5 ' onClick={handleCheckOut} > Check Out </button>
                     </div>
